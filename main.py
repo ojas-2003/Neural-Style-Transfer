@@ -58,6 +58,7 @@ while run[0] < EPOCHS:
 
 		return style_score + content_score
 
+
 	optimizer.step(closure)
 
 target_image.data.clamp_(0, 1)
